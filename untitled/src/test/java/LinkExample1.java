@@ -64,5 +64,8 @@ public class LinkExample1 {
         int layCountSize = layoutCount.size();
         System.out.println("count layout links : "+ layCountSize);
 
+
+        driver.quit();
+
     }
 }
