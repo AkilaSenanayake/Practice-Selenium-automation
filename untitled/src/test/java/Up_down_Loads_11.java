@@ -1,4 +1,3 @@
-import com.sun.jna.platform.unix.X11;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,12 +6,13 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.io.File;
 
-public class Up_down_Load_11 {
+public class Up_down_Loads_11 {
 
     WebDriver driver;
 
@@ -80,6 +80,8 @@ public class Up_down_Load_11 {
         WebElement uploadUsingSendKeys = driver.findElement(By.id("j_idt88:j_idt89_input"));
         uploadUsingSendKeys.sendKeys(data);
     }
+
+
 
 
     @AfterMethod
