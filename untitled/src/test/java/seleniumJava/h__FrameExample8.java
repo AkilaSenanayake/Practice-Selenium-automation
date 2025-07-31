@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import java.util.List;
 
 
-public class FrameExample8 {
+public class h__FrameExample8 {
 
     WebDriver driver;
 

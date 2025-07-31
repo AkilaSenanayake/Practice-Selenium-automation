@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import java.util.List;
 
-public class KeyboardActions_10 {
+public class j__KeyboardActions_10 {
 
     WebDriver driver;
 

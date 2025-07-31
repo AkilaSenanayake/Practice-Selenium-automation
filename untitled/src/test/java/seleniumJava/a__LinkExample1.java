@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class LinkExample1 {
+public class a__LinkExample1 {
 
     WebDriver driver;
 

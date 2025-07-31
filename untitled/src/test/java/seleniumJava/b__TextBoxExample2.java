@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class TextBoxExample2 {
+public class b__TextBoxExample2 {
 
     WebDriver driver;
 

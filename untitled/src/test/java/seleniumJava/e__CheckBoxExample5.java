@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class CheckBoxExample5 {
+public class e__CheckBoxExample5 {
 
     WebDriver driver;
 

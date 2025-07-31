@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class AlertExample6 {
+public class f__AlertExample6 {
 
     WebDriver driver;
 

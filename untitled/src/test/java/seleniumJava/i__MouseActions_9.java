@@ -10,7 +10,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class MouseActions_9 {
+public class i__MouseActions_9 {
 
     WebDriver driver;
 

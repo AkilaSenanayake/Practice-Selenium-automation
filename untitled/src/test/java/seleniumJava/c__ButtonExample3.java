@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class ButtonExample3 {
+public class c__ButtonExample3 {
 
     WebDriver driver;
 

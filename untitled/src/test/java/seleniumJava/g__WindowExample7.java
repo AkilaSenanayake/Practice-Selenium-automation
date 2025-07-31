@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import java.util.Set;
 
-public class WindowExample7 {
+public class g__WindowExample7 {
 
     WebDriver driver;
 

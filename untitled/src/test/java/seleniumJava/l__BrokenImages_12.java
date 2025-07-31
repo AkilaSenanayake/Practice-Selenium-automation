@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import java.util.List;
 
 @Test
-public class BrokenImages_12 {
+public class l__BrokenImages_12 {
 
     WebDriver driver;
 

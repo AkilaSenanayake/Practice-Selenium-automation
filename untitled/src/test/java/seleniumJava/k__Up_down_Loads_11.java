@@ -14,7 +14,7 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.io.File;
 
-public class Up_down_Loads_11 {
+public class k__Up_down_Loads_11 {
 
     WebDriver driver;
 
