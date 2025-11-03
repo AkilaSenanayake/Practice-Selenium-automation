@@ -1,2 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/akila/Desktop/Selenium1/untitled/src/test/java/testNG/ParallelMethodTest.java"><classes><class name="testNG.ParallelMethodTest"><methods><include name="openGoogle"/><include name="OpenBing"/></methods></class></classes></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite" parallel="tests" thread-count="2">
+
+
+    <test name="testing parallel test1">
+        <parameter name="test-name" value="test-method One"/>
+        <classes>
+            <class name="testNG.ParallelMethodTest"/>
+        </classes>
+    </test>
+
+    <test name="testing parallel test2">
+        <parameter name="test-name" value="test-method two"/>
+        <classes>
+            <class name="testNG.ParallelMethodTest"/>
+        </classes>
+    </test>
+
+</suite>
