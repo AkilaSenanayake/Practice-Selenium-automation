@@ -26,7 +26,7 @@ public class a__LinkExample1 {
         // 01. take me to dashboard
         WebElement homeLink = driver.findElement(By.linkText("Go to Dashboard"));
         homeLink.click();
-        driver.navigate().back();
+        driver.navigate().back();  //navigate to back
 
         // 02. find my destination
         WebElement whereToGo = driver.findElement(By.partialLinkText("Find the URL"));

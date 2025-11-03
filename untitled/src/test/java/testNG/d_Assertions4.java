@@ -1,11 +1,10 @@
 package testNG;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 
-public class Assertions {
+public class d_Assertions4 {
 
     SoftAssert softAssert = new SoftAssert();
 

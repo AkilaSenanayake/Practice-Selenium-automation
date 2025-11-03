@@ -5,8 +5,8 @@
 <suite name="Test suite" verbose="2">
     <test name="Test cases">
         <classes>
-            <class name="testNG.PriorityTest"/>
-            <class name="testNG.DependsOnTest"/>
+            <class name="testNG.a_PriorityTest1"/>
+            <class name="testNG.b_DependsOnTest2"/>
         </classes>
     </test>
 </suite>

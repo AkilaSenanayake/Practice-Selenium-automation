@@ -7,7 +7,7 @@
 
     <test name="Param1">
         <classes>
-            <class name="testNG.parameter.ParameterTest1"/>
+            <class name="testNG.e_parameter5.ParameterTest1"/>
         </classes>
     </test>
 
@@ -15,20 +15,20 @@
         <parameter name="value1" value="100"/>
         <parameter name="value2" value="50"/>
         <classes>
-            <class name="testNG.parameter.ParameterTest2"/>
+            <class name="testNG.e_parameter5.ParameterTest2"/>
         </classes>
     </test>
 
     <test name="Param3">
         <classes>
-            <class name="testNG.parameter.ParameterTest1"/>
+            <class name="testNG.e_parameter5.ParameterTest1"/>
         </classes>
     </test>
 
     <test name="Param4">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="testNG.parameter.ParameterTest3"/>
+            <class name="testNG.e_parameter5.ParameterTest3"/>
         </classes>
     </test>
 
