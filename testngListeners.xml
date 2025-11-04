@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/akila/Desktop/Selenium1/untitled/src/test/java/testNG/Listeners/ListenersTest.java"><classes><class name="testNG.Listeners.ListenersTest"><methods><include name="test1"/><include name="test2"/><include name="test3"/><include name="test4"/></methods></class></classes></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+
+
+    <listeners>
+        <listener class-name="testNG.Listeners.CustomListeners"/>
+    </listeners>
+
+
+    <test verbose="2" name="Listeners Test Suite">
+        <classes>
+            <class name="testNG.Listeners.ListenersWay2">
+
+            </class>
+        </classes>
+    </test>
+</suite>
